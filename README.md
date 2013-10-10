@@ -17,7 +17,7 @@ cat.exe が必要です。EXE ファイルを持ち込むことができない環境用に vbcat.vbs を
   - bf.bat
   - bfcat.bat
   - _vimrc
-  - vbcat.vbs  -  for 
+  - vbcat.vbs
 
 
 by HigeDice/ひげダイス
