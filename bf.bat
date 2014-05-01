@@ -2,7 +2,8 @@
 if NOT "%HOME%"=="" (
 cat >"%HOME%\vimfiles\bf"
 ) else if NOT "%HOMEPATH%"=="" (
-if NOT "%USERPROFILE%"=="" (
+cat >"%HOMEPATH%\vimfiles\bf"
+) if NOT "%USERPROFILE%"=="" (
 cat >"%USERPROFILE%\vimfiles\bf"
 ) else if NOT "%HOMEPATH%"=="" (
 cat >"%HOMEPATH%\vimfiles\bf"
