@@ -1,9 +1,10 @@
 @echo off
 if NOT "%HOME%"=="" (
-REM Windows XP
 cat >"%HOME%\vimfiles\bf"
 ) else if NOT "%HOMEPATH%"=="" (
-REM Windows 7/8
+if NOT "%USERPROFILE%"=="" (
+cat >"%USERPROFILE%\vimfiles\bf"
+) else if NOT "%HOMEPATH%"=="" (
 cat >"%HOMEPATH%\vimfiles\bf"
 ) else (
 echo bf.bat error
